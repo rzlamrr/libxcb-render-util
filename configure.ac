@@ -11,7 +11,8 @@ XCB_UTIL_COMMON([1.4], [1.6])
 
 PKG_CHECK_MODULES(XCB_RENDER, xcb-render)
 
-AC_OUTPUT([Makefile
-	renderutil/Makefile renderutil/xcb-renderutil.pc
-	xcb_util_intro
-	])
+AC_CONFIG_FILES([Makefile
+	renderutil/Makefile
+	renderutil/xcb-renderutil.pc
+	xcb_util_intro])
+AC_OUTPUT

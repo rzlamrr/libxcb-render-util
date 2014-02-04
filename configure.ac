@@ -14,6 +14,5 @@ PKG_CHECK_MODULES(XCB_RENDER, xcb-render)
 
 AC_CONFIG_FILES([Makefile
 	renderutil/Makefile
-	renderutil/xcb-renderutil.pc
-	xcb_util_intro])
+	renderutil/xcb-renderutil.pc])
 AC_OUTPUT

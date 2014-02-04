@@ -1,5 +1,7 @@
 AC_PREREQ(2.59c)
-AC_INIT([xcb-util-renderutil],0.3.8,[xcb@lists.freedesktop.org])
+AC_INIT([xcb-util-renderutil],[0.3.8],
+        [https://bugs.freedesktop.org/enter_bug.cgi?product=xcb&component=Utils],
+        [xcb-util-renderutil])
 AC_CONFIG_SRCDIR([Makefile.am])
 AC_CONFIG_MACRO_DIR([m4])
 AM_INIT_AUTOMAKE([foreign dist-bzip2])

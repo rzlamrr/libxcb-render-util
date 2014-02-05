@@ -1,6 +1,4 @@
 
-MAINTAINERCLEANFILES = Makefile.in
-
 lib_LTLIBRARIES = libxcb-render-util.la
 
 xcbinclude_HEADERS = xcb_renderutil.h

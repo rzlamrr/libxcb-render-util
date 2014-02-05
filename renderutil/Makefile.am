@@ -11,5 +11,3 @@ libxcb_render_util_la_LIBADD = $(XCB_LIBS) $(XCB_RENDER_LIBS)
 libxcb_render_util_la_LDFLAGS = -no-undefined
 
 pkgconfig_DATA = xcb-renderutil.pc
-
-EXTRA_DIST=xcb-renderutil.pc.in

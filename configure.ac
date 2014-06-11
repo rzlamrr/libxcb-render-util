@@ -1,5 +1,5 @@
 AC_PREREQ(2.59c)
-AC_INIT([xcb-util-renderutil],[0.3.8],
+AC_INIT([xcb-util-renderutil],[0.3.9],
         [https://bugs.freedesktop.org/enter_bug.cgi?product=xcb&component=Utils],
         [xcb-util-renderutil])
 AC_CONFIG_SRCDIR([Makefile.am])

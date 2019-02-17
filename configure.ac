@@ -1,6 +1,6 @@
 AC_PREREQ(2.59c)
 AC_INIT([xcb-util-renderutil],[0.3.9],
-        [https://bugs.freedesktop.org/enter_bug.cgi?product=xcb&component=Utils],
+        [https://gitlab.freedesktop.org/xorg/lib/libxcb-render-util/issues],
         [xcb-util-renderutil])
 AC_CONFIG_SRCDIR([Makefile.am])
 AC_CONFIG_HEADERS([config.h])
